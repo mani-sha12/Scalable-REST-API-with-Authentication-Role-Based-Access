@@ -27,8 +27,11 @@ This project is a **full-stack web application** demonstrating a scalable backen
 ## Project Structure
 backend-frontend-project/
 ├── backend/ # Node.js + Express backend
+|
 │ ├── controllers/ # API logic
-│ ├── models/ # Database schemas
+|
+├── models/ # Database schemas
+|
 │ ├── routes/ # API endpoints
 │ ├── middleware/ # JWT & role-based access
 │ ├── server.js
@@ -36,8 +39,13 @@ backend-frontend-project/
 ├── frontend/ # React frontend
 │ ├── src/
 │ │ ├── components/ # Reusable UI components
+| | |
 │ │ ├── pages/ # Dashboard, login, register
+| | |
 │ │ └── services/ # API calls (Axios)
+| | |
 │ ├── package.json
+| | |
 │ └── public/
+| | |
 └── README.md
